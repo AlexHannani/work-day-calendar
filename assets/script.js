@@ -19,6 +19,22 @@ $(jQuery).ready(function () {
       saveText()
     }
 
-    
-  }
-}
+    // to retrieve current time to determine location of past, present, or future
+
+    var currentH = dayjs().hour();
+    $('#hour').text(currentH);
+
+    $(".time-block").each(function () {
+      
+      var blockHour = parseInt($(this).attr('id').split('-')[1]);
+
+      if (currentH === blockHour) {
+        $(this).addClass("present");
+      } else if (currentH < blockHour) {
+        $(this).addClass("future");
+      } else {
+        $(this).addClass("past");
+      }
+    })
+  })
+})
