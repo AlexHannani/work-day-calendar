@@ -18,4 +18,4 @@
 
 ## Website Link
 
-[website URL](https://alexhannani.github.io/work-day-calendar/)
+[https://alexhannani.github.io/work-day-calendar/](https://alexhannani.github.io/work-day-calendar/)
