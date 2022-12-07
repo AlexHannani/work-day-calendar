@@ -14,3 +14,4 @@
 
 ## Screenshot
 
+![screenshot of webpage](./assets/work-day-calendar-screenshot.png)
